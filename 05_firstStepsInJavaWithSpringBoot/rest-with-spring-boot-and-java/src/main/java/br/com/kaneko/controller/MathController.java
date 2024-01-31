@@ -31,7 +31,7 @@ public class MathController {
 			
 		}
 		return math.subtract(NumberConverter.convertToDouble(numberOne),NumberConverter.convertToDouble(numberTwo));
-	}
+	} 
 	
 	@GetMapping("/multiply/{numberOne}/{numberTwo}")
 	public Double multiply(@PathVariable(value="numberOne") String numberOne,
